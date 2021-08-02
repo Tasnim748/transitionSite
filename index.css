@@ -1,0 +1,19 @@
+.bTn {
+    display: block;
+    background-color: rgb(223, 189, 148);
+    border-radius: 5px;
+    padding: 100px 5px;
+    margin: 20% auto;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: brown;
+    transition: background-color 2s, font-size 2s, transform 2s, color 2s;
+}
+
+.bTn:hover {
+    background-color: crimson;
+    font-size: 70px;
+    color: white;
+    transform: rotate(180deg);
+}
