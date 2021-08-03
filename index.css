@@ -8,12 +8,12 @@
     font-family: Helvetica;
     font-size: 30px;
     color: brown;
-    transition: background-color 2s, font-size 2s, transform 2s, color 2s;
+    transition: background-color 2s, font-size 2s, transform 2s ease-in-out, color 2s;
 }
 
 .bTn:hover {
     background-color: crimson;
     font-size: 70px;
     color: white;
-    transform: rotate(180deg);
+    transform: rotate(1800deg);
 }
